@@ -29,22 +29,22 @@ Apply this template, then adjust based on dependencies you find.
 2. **Set the brand accent** — apply the token customisation.
    Still no user-facing change unless something already imports
    from `./caret/theme`.
-3. **Replace logging** — `npx caret-cli@alpha add log`,
+3. **Replace logging** — `npx caret-cli add log`,
    then update `console.log → log.info`, `console.warn →
    log.warn`. Low-risk, high-coverage. Every CLI has logs.
-4. **Replace error handling** — `npx caret-cli@alpha add error`,
+4. **Replace error handling** — `npx caret-cli add error`,
    then update error printers. Often shares helpers with logging
    so this comes second.
-5. **Replace prompts** — `npx caret-cli@alpha add prompt`, then
+5. **Replace prompts** — `npx caret-cli add prompt`, then
    migrate `inquirer.prompt` calls one at a time. Each migration
    is local; do them in any order.
-6. **Replace progress** — `npx caret-cli@alpha add spinner`,
+6. **Replace progress** — `npx caret-cli add spinner`,
    then `add boot` or `add step-list` if needed. Replace `ora`
    and `listr` calls. Higher-effort because async resolution
    patterns may need refactoring.
-7. **Replace splash / banner** — `npx caret-cli@alpha add
+7. **Replace splash / banner** — `npx caret-cli add
    splash`, replace the opening art. Usually a one-shot rewrite.
-8. **Replace key-value summaries** — `npx caret-cli@alpha add
+8. **Replace key-value summaries** — `npx caret-cli add
    key-value`. Mostly cosmetic; do last.
 9. **Add toasts** — only if the CLI has transient
    notifications today. Most don't.
@@ -81,7 +81,7 @@ Reorder when:
 Each step in your plan has:
 
 1. **Title** — what the step does, in one line.
-2. **Commands** — the exact `npx caret-cli@alpha add ...`
+2. **Commands** — the exact `npx caret-cli add ...`
    incantations.
 3. **Files touched** — list of paths the user will edit.
 4. **Verify** — what to check after to confirm the step works.
@@ -92,7 +92,7 @@ Example:
 Step 3 — Replace logging
 
 Commands:
-  npx caret-cli@alpha add log
+  npx caret-cli add log
 
 Files touched:
   src/lib/log.ts                 (replace contents with caret import)

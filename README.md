@@ -19,9 +19,9 @@ existing CLIs.
 These pair with the runtime CLI:
 
 ```bash
-npx caret-cli@alpha init my-cli      # scaffold a new CLI
-npx caret-cli@alpha list             # browse the component catalog
-npx caret-cli@alpha add prompt       # copy a component into your project
+npx caret-cli init my-cli      # scaffold a new CLI
+npx caret-cli list             # browse the component catalog
+npx caret-cli add prompt       # copy a component into your project
 ```
 
 ## Install — Claude Code (native plugin)
@@ -50,8 +50,8 @@ can install both skills in one go or just the one you need.
 
 | You want… | Skill to invoke |
 | --- | --- |
-| To start a new CLI from a template | _none_ — run `npx caret-cli@alpha init` directly |
-| To install a component that already exists in the registry | _none_ — run `npx caret-cli@alpha add <name>` directly |
+| To start a new CLI from a template | _none_ — run `npx caret-cli init` directly |
+| To install a component that already exists in the registry | _none_ — run `npx caret-cli add <name>` directly |
 | To author a brand-new component the registry doesn't ship | `create-caret-component` |
 | To plan how to bring an existing CLI inside the Caret system | `caret-cli-design` |
 

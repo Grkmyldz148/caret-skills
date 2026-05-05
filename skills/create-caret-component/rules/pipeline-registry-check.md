@@ -10,7 +10,7 @@ is the most common failure mode of this skill. The registry has
 ## How to check
 
 ```bash
-npx caret-cli@alpha list
+npx caret-cli list
 ```
 
 This prints every component grouped by kind (`interactive`,
@@ -29,7 +29,7 @@ by `caret-cli list`.
 
 - **Exact match** — the registry already ships your component.
   Stop authoring. Tell the user:
-  > "That's already a Caret component — `npx caret-cli@alpha add
+  > "That's already a Caret component — `npx caret-cli add
   > <name>` will copy it into your project."
   Do not re-author.
 - **Variant match** — the registry has the lifecycle and shape, but

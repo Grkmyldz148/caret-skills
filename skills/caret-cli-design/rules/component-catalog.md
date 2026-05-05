@@ -1,6 +1,6 @@
 # component-catalog
 
-> Reference table. Snapshot of `npx caret-cli@alpha list` at the
+> Reference table. Snapshot of `npx caret-cli list` at the
 > time of writing. The live command is the truth — verify before
 > mapping.
 
@@ -11,10 +11,10 @@ list shows a row not here, add it.
 
 ## Last verified
 
-Caret CLI version: `0.1.0-alpha.0`
+Caret CLI version: `0.1.0`
 Component count: 51
 
-Run `npx caret-cli@alpha list` before publishing a plan, to make
+Run `npx caret-cli list` before publishing a plan, to make
 sure recommendations are current.
 
 ## interactive (17)

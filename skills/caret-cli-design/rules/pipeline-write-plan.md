@@ -31,9 +31,9 @@ read; predictable headings reward skimming.
 
 ## Appendix — about Caret
 - Manifesto: https://caret.dev/spec
-- Components: `npx caret-cli@alpha list`
-- Install runtime: `npx caret-cli@alpha init` (new project)
-  or `npx caret-cli@alpha add <component>` (existing project)
+- Components: `npx caret-cli list`
+- Install runtime: `npx caret-cli init` (new project)
+  or `npx caret-cli add <component>` (existing project)
 ```
 
 Five sections, one appendix. Section count is fixed; section

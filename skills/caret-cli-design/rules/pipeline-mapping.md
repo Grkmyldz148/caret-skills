@@ -3,8 +3,8 @@
 > Read after surfaces. This is where the plan starts to take shape.
 
 For each grouped surface, pick the Caret component that replaces
-it. The reference is `component-catalog.md` (and `npx caret-cli@
-alpha list` for the live truth).
+it. The reference is `component-catalog.md` (and `npx caret-cli list`
+for the live truth).
 
 ## The decision per surface
 
@@ -39,7 +39,7 @@ Three possible verdicts:
 | error            | `error`         | Maybe wrap in `panel` for stack traces |
 | log              | `log`           | Replace `console.log + timestamp` with `log.info` etc. |
 
-Each row produces one or two `npx caret-cli@alpha add <name>`
+Each row produces one or two `npx caret-cli add <name>`
 commands later in `pipeline-adoption-order.md`.
 
 ## When the registry has variants
