@@ -1,0 +1,15 @@
+{
+  "name": "caret-skills",
+  "owner": {
+    "name": "Görkem Yıldız",
+    "url": "https://github.com/Grkmyldz148"
+  },
+  "plugins": [
+    {
+      "name": "caret-skills",
+      "source": ".",
+      "version": "0.1.0",
+      "description": "Two skills for designing CLIs with Caret: per-component authoring (`create-caret-component`) and whole-CLI design pass (`caret-cli-design`)."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "caret-skills",
+  "version": "0.1.0",
+  "description": "Design CLIs that look like Vercel or Linear built them — Caret design system. Bundles two Claude skills: create-caret-component (author one Caret component from a prompt, manifesto-checked) and caret-cli-design (read an existing CLI repo and produce a Caret adoption plan with token, symbol, and component decisions).",
+  "author": {
+    "name": "Görkem Yıldız",
+    "url": "https://github.com/Grkmyldz148"
+  },
+  "homepage": "https://caret.dev",
+  "repository": "https://github.com/Grkmyldz148/caret-skills",
+  "keywords": [
+    "cli",
+    "terminal",
+    "design-system",
+    "ink",
+    "shadcn",
+    "caret",
+    "skill"
+  ]
+}
